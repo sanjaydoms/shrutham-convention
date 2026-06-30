@@ -4,9 +4,10 @@
   "description": "Shrutham Convention - Premier Event Venue Website",
   "main": "backend/server.js",
   "scripts": {
+    "build": "echo \"No build step needed\"",
     "start": "node backend/server.js",
     "dev": "nodemon backend/server.js",
-    "test": "echo "Error: no test specified" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "convention",
