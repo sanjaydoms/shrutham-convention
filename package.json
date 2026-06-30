@@ -1,12 +1,28 @@
 {
   "name": "shrutham-convention",
   "version": "1.0.0",
-  "description": "Starter project for Shrutham Convention",
+  "description": "Shrutham Convention - Premier Event Venue Website",
   "main": "backend/server.js",
   "scripts": {
-    "start": "node backend/server.js"
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js",
+    "test": "echo "Error: no test specified" && exit 1"
   },
-  "author": "",
+  "keywords": [
+    "convention",
+    "events",
+    "wedding",
+    "venue",
+    "hyderabad"
+  ],
+  "author": "Shrutham Convention",
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
 }
