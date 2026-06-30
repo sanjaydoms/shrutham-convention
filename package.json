@@ -1,0 +1,12 @@
+{
+  "name": "shrutham-convention",
+  "version": "1.0.0",
+  "description": "Starter project for Shrutham Convention",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {}
+}
